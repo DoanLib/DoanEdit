@@ -1,0 +1,3 @@
+[submodule "external/DoanLib"]
+	path = external/DoanLib
+	url = https://github.com/DoanLib/DoanLib.git
