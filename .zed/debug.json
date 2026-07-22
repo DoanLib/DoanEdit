@@ -1,0 +1,27 @@
+// Documentation: https://zed.dev/docs/debugger
+[
+  {
+    "label": "DoanEdit Debug",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/debug/DoanEdit.exe",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "Build Debug",
+  },
+  {
+    "label": "DoanEdit Develop",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/develop/DoanEdit.exe",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "Build Develop",
+  },
+  {
+    "label": "DoanEdit Release",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/release/DoanEdit.exe",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "Build Release",
+  },
+]
